@@ -27,8 +27,8 @@ Java task solutions at HackerRank
         
 - [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem?h_r=profile) 
 
-        public static long aVeryBigSum(List<Long> ar) {
-    
+        public static long aVeryBigSum(List<Long> ar) 
+        {    
                 Long longInteger = 0L;
                 for(Long i: ar)
                 {
@@ -36,3 +36,17 @@ Java task solutions at HackerRank
                 }
                 return longInteger;
         }
+        
+- or:
+
+        public static long aVeryBigSum(List<Long> ar) 
+        {    
+                Long longInteger = 0L;
+                for(int i = 0; i < ar.size(); i++)
+                {
+                longInteger += ar.get(i);        
+                }
+                return longInteger;
+        }
+
+- []()
