@@ -25,4 +25,14 @@ Java task solutions at HackerRank
                 return sum;
         }
         
-- []() 
+- [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem?h_r=profile) 
+
+        public static long aVeryBigSum(List<Long> ar) {
+    
+                Long longInteger = 0L;
+                for(Long i: ar)
+                {
+                longInteger += i;        
+                }
+                return longInteger;
+        }
