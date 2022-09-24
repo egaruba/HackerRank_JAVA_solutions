@@ -49,4 +49,24 @@ Java task solutions at HackerRank
                 return longInteger;
         }
 
+- [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?h_r=profile)
+
+        public static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) 
+         {        
+        
+                Integer[] result = {0,0};
+                for(int i=0; i < a.size(); i++)
+                {
+                        if(a.get(i) > b.get(i))
+                        {
+                        result[0] += 1;
+                        } 
+                        else if(a.get(i) < b.get(i))
+                        {
+                        result[1] += 1;
+                }
+        }
+        return Arrays.asList(result);
+        }  
+    
 - []()
