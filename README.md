@@ -96,4 +96,21 @@ Java task solutions at HackerRank
         }
     
     
+- [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem?h_r=profile)
+
+        public static int diagonalDifference(List<List<Integer>> arr) 
+        {
+                int sum1 = 0;
+                int sum2 = 0;
+                int size = arr.size();
+                for(int i = 0; i< size; i++)
+                {
+                    sum1 += arr.get(i).get(i);
+                    sum2 += arr.get(i).get(size - ( i + 1 ));              
+                }
+                return Math.abs(sum1-sum2);
+        }
+    
 - []()
+
+
