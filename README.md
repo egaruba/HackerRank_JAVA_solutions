@@ -111,6 +111,25 @@ Java task solutions at HackerRank
                 return Math.abs(sum1-sum2);
         }
     
-- []()
+- [Staircase](https://www.hackerrank.com/challenges/staircase/problem?h_r=profile)
 
+        public static void staircase(int n) 
+            {       
+                for(int i = 1; i <= n; i++)
+                {
+                 int interspace = n - i;
+                 for(int j = 0; j < interspace; j++)
+                 {
+                     System.out.print(" ");
+                 }
+                 int hashtag = n-interspace;
+                 for(int k = 0; k < hashtag; k++)
+                 {
+                     System.out.print("#");
+                 } 
+                 System.out.println();
+                }   
+            }
+    
+ - []()   
 
