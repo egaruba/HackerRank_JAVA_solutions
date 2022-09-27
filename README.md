@@ -131,5 +131,26 @@ Java task solutions at HackerRank
                 }   
             }
     
- - []()   
+ - []()   or
+ 
+     public static void staircase(int n) {
+    // Write your code here
+    
+       StringBuilder sb = new StringBuilder();
+       StringBuilder sb2 = new StringBuilder();
+              
+       for(int i = 0; i < n; i++) {
+           sb.append(" ");
+       }
+       
+       for(int j = n-1; j >= 0; j--) {
+          sb = sb.replace(j, j+1, "#");
+          sb2.append(sb.toString());
+          sb2.append("\n");
+       }
+       
+       System.out.println(sb2.toString());
+    }
+    
+ - []()      
 
