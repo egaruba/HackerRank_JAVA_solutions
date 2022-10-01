@@ -149,5 +149,27 @@ Java task solutions at HackerRank
                System.out.println(sb2.toString());
             }
     
- - []()      
+ - [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=profile)      
+ 
+         public static void miniMaxSum(List<Integer> arr) {
+            // Write your code here
+            long minValue = 0;
+            long maxValue = 0;
+
+            Collections.sort(arr); 
+
+            int size = arr.size();  
+
+            for(int i = 0; i < size-1; i++)
+            {
+                minValue += arr.get(i);
+            }
+            for(int j = 1; j < size; j++)
+            {
+                maxValue += arr.get(j);
+            }
+            System.out.println(minValue + " " + maxValue);
+            }
+    
+ - []()  
 
