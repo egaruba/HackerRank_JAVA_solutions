@@ -151,15 +151,11 @@ Java task solutions at HackerRank
     
  - [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=profile)      
  
-         public static void miniMaxSum(List<Integer> arr) {
-            // Write your code here
+         public static void miniMaxSum(List<Integer> arr) {            
             long minValue = 0;
             long maxValue = 0;
-
             Collections.sort(arr); 
-
             int size = arr.size();  
-
             for(int i = 0; i < size-1; i++)
             {
                 minValue += arr.get(i);
