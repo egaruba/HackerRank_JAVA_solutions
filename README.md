@@ -149,7 +149,7 @@ Java task solutions at HackerRank
                System.out.println(sb2.toString());
             }
     
- - [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=profile)      
+- [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=profile)      
  
          public static void miniMaxSum(List<Integer> arr) {            
             long minValue = 0;
@@ -167,5 +167,18 @@ Java task solutions at HackerRank
             System.out.println(minValue + " " + maxValue);
             }
     
- - []()  
+- [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem?h_r=profile)  
 
+        public static int birthdayCakeCandles(List<Integer> candles) {
+                int count = 0;
+                int max = Collections.max(candles);
+
+                for (int x : candles){
+                    if  (x == max){
+                        count += 1;
+                    }
+                }
+                return count;   
+            }
+
+- []()        
