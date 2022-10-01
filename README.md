@@ -181,4 +181,26 @@ Java task solutions at HackerRank
                 return count;   
             }
 
-- []()        
+- []() or
+
+        public static int birthdayCakeCandles(List<Integer> candles) {
+                int count = 0;
+                int max = 0;
+                for(int x : candles)
+                {
+                    if(max < x)
+                    {
+                        max += 1;
+                    }
+                }
+                for(int i = 0; i < candles.size(); i++)
+                {            
+                    if(candles.get(i) == max)
+                    {
+                        count += 1;
+                    }
+                }
+                return count;  
+            }
+    
+- []()
