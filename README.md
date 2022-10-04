@@ -246,9 +246,12 @@ Java task solutions at HackerRank
                 {
                         int d1 = Math.abs(x-z);
                         int d2 = Math.abs(y-z);
-                        if(d1>d2){
+                        if(d1>d2)
+                        {
                             return "Cat B";
-                        } else if(d1<d2){
+                        } 
+                        else if(d1<d2)
+                        {
                             return "Cat A";
                         }
                         return "Mouse C";
