@@ -240,7 +240,19 @@ Java task solutions at HackerRank
                                    
 
 
-- []()
+- [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem?h_r=profile)
 
-
+        static String catAndMouse(int x, int y, int z) 
+                {
+                        int d1 = Math.abs(x-z);
+                        int d2 = Math.abs(y-z);
+                        if(d1>d2){
+                            return "Cat B";
+                        } else if(d1<d2){
+                            return "Cat A";
+                        }
+                        return "Mouse C";
+                }
+    
+    
 - []()
