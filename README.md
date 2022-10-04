@@ -203,4 +203,27 @@ Java task solutions at HackerRank
                 return count;  
             }
     
+- [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem?h_r=profile)
+
+        public static String timeConversion(String s) {
+
+            String str = s.substring(8, 9); 
+            s = s.substring(0, 8); 
+            int hr = Integer.parseInt(s.substring(0, 2));
+
+            if(str.equalsIgnoreCase("p") && (hr != 12))
+            { 
+                hr += 12; s = hr + s.substring(2); 
+            }
+            else if(str.equalsIgnoreCase("a") && (hr == 12))
+            { 
+                s = "00" + s.substring(2); 
+            } 
+            return s; 
+
+        }
+    
+- []()
+
+
 - []()
