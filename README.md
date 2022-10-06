@@ -279,4 +279,33 @@ Java task solutions at HackerRank
                 return output;    
             }
     
-- []()    
+- [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?h_r=profile)    
+
+                class Result {    
+
+                    public static List<Integer> breakingRecords(List<Integer> scores) {            
+                        int highestScoreCounter = 0;
+                        int currenthighestScore = scores.get(0);
+                        for (int i = 1; i < scores.size(); i++ ) {
+                            if (scores.get(i) > currenthighestScore) {
+                                highestScoreCounter++;  
+                                currenthighestScore = scores.get(i);
+                            } 
+                        }                
+                        int lowestScoreCounter = 0;
+                        int currentLowestScore = scores.get(0);
+                        for (int i = 1; i < scores.size(); i++ ) {
+                            if (scores.get(i) < currentLowestScore) {
+                                lowestScoreCounter++;  
+                                currentLowestScore = scores.get(i);
+                            } 
+                        }
+                        List<Integer> output = new ArrayList<Integer>();
+                        output.add(highestScoreCounter);
+                        output.add(lowestScoreCounter);
+                        return output;
+                    }
+                }
+
+
+- []()  
