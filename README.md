@@ -1,7 +1,22 @@
 ## HackerRank_JAVA_solutions
 Java task solutions at HackerRank
+1. [Simple Array Sum](#SimpleArraySum)
+2. [A Very Big Sum](#AVeryBigSum)
+3. [Compare the Triplets](#CompareTheTriplets)
+4. [Plus Minus](#PlusMinus)
+5. [Diagonal Difference](#DiagonalDifference)
+6. [Staircase](#Staircase)
+7. [Mini-Max Sum](#Mini-Max-Sum)
+8. [Birthday Cake Candles](#BirthdayCakeCandles)
+9. [Time Conversion](#TimeConversion)
+10. [Grading Students](#GradingStudents)
+11. [Cats and a Mouse](#CatsMouse)
+12. [Number Line Jumps](#NumberLineJumps)
+13. [Breaking the Records](#BreakingTheRecords)
+14. [](#)
 
-- [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) 
+<a name=""></a>
+1. <a name="SimpleArraySum"></a>[Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) 
         
         public static int simpleArraySum(List<Integer> ar) 
         {    
@@ -25,7 +40,7 @@ Java task solutions at HackerRank
                 return sum;
         }
         
-- [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem?h_r=profile) 
+2. <a name="AVeryBigSum"></a>[A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem?h_r=profile) 
 
         public static long aVeryBigSum(List<Long> ar) 
         {    
@@ -49,7 +64,7 @@ Java task solutions at HackerRank
                 return longInteger;
         }
 
-- [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?h_r=profile) - comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
+3. <a name="CompareTheTriplets"></a>[Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?h_r=profile) - comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
 
         public static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) 
          {        
@@ -69,7 +84,7 @@ Java task solutions at HackerRank
         return Arrays.asList(result);
         }  
     
-- [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem?h_r=profile)
+4. <a name="PlusMinus"></a>[Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem?h_r=profile)
 
         public static void plusMinus(List<Integer> arr) 
         {
@@ -96,7 +111,7 @@ Java task solutions at HackerRank
         }
     
     
-- [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem?h_r=profile)
+5. <a name="DiagonalDifference"></a>[Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem?h_r=profile)
 
         public static int diagonalDifference(List<List<Integer>> arr) 
         {
@@ -111,7 +126,7 @@ Java task solutions at HackerRank
                 return Math.abs(sum1-sum2);
         }
     
-- [Staircase](https://www.hackerrank.com/challenges/staircase/problem?h_r=profile)
+6. <a name="Staircase"></a>[Staircase](https://www.hackerrank.com/challenges/staircase/problem?h_r=profile)
 
         public static void staircase(int n) 
             {       
@@ -149,7 +164,7 @@ Java task solutions at HackerRank
                System.out.println(sb2.toString());
             }
     
-- [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=profile)      
+7. <a name="Mini-Max-Sum"></a>[Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=profile)      
  
          public static void miniMaxSum(List<Integer> arr) {            
             long minValue = 0;
@@ -167,7 +182,7 @@ Java task solutions at HackerRank
             System.out.println(minValue + " " + maxValue);
             }
     
-- [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem?h_r=profile)  
+8. <a name="BirthdayCakeCandles"></a>[Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem?h_r=profile)  
 
         public static int birthdayCakeCandles(List<Integer> candles) {
                 int count = 0;
@@ -203,7 +218,7 @@ Java task solutions at HackerRank
                 return count;  
             }
     
-- [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem?h_r=profile)
+9. <a name="TimeConversion"></a>[Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem?h_r=profile)
 
         public static String timeConversion(String s) {
 
@@ -223,7 +238,7 @@ Java task solutions at HackerRank
 
         }
     
-- [Grading Students](https://www.hackerrank.com/challenges/grading/problem?h_r=profile)
+10. <a name="GradingStudents"></a>[Grading Students](https://www.hackerrank.com/challenges/grading/problem?h_r=profile)
 
         public static List<Integer> gradingStudents(List<Integer> grades) {
                 for (int i = 0; i < grades.size(); i++ ) {
@@ -240,7 +255,7 @@ Java task solutions at HackerRank
                                    
 
 
-- [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem?h_r=profile)
+11. <a name="CatsMouse"></a>[Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem?h_r=profile)
 
         static String catAndMouse(int x, int y, int z) 
                 {
@@ -258,7 +273,7 @@ Java task solutions at HackerRank
                 }
     
     
-- [Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo/problem?h_r=profile)
+12. <a name="NumberLineJumps"></a>[Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo/problem?h_r=profile)
 
         public static String kangaroo(int x1, int v1, int x2, int v2) 
             {
@@ -279,7 +294,7 @@ Java task solutions at HackerRank
                 return output;    
             }
     
-- [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?h_r=profile)    
+13. <a name="BreakingTheRecords"></a>[Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?h_r=profile)    
 
                 class Result {    
 
