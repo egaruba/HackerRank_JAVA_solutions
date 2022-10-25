@@ -49,7 +49,7 @@ Java task solutions at HackerRank
                 return longInteger;
         }
 
-- [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?h_r=profile)
+- [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?h_r=profile) - comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
 
         public static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) 
          {        
