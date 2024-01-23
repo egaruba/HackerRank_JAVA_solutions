@@ -60,7 +60,7 @@ Use Case: For sports analysts, the Breaking the Records code could be used to an
 
 
 
-#1. [Calculating Total Sales](#CalculateTotalSales)
+1. #[Calculating Total Sales](#CalculateTotalSales)
 2. [A Very Big Sum](#AVeryBigSum)
 3. [Compare the Triplets](#CompareTheTriplets)
 4. [Plus Minus](#PlusMinus)
@@ -76,15 +76,13 @@ Use Case: For sports analysts, the Breaking the Records code could be used to an
 14. [](#)
 
 <a name=""></a>
-1. <a name="CalculateTotalSales"></a>[Calculating Total Sales] - Use Case: Suppose you are developing a point-of-sale system and you need to calculate the total sales for a day based on sales figures stored in an array, how would you approach implementing the necessary code for this task? Provide a Java code snippet demonstrating how you would calculate the total sales by summing up the sales figures in the array.
+1. <a name="CalculateTotalSales"></a>[Calculating Total Sales](#) - Use Case: Suppose you are developing a point-of-sale system and you need to calculate the total sales for a day based on sales figures stored in an array, how would you approach implementing the necessary code for this task? Provide a Java code snippet demonstrating how you would calculate the total sales by summing up the sales figures in the array.
         
         public class PointOfSaleSystem {
 
-    // Function to calculate total sales
     public static int calculateTotalSales(int[] salesFigures) {
         int totalSales = 0;
 
-        // Iterating through the array to sum up sales figures
         for (int sales : salesFigures) {
             totalSales += sales;
         }
@@ -93,19 +91,15 @@ Use Case: For sports analysts, the Breaking the Records code could be used to an
     }
 
     public static void main(String[] args) {
-        // Example sales figures for a day
         int[] dailySales = {150, 230, 180, 210, 190};
 
-        // Calculate total sales using the implemented function
         int totalSalesForDay = calculateTotalSales(dailySales);
 
-        // Display the result
         System.out.println("Total Sales for the Day: $" + totalSalesForDay);
     }
 }
 
-Explanation:
-
+- Explanation:
 The calculateTotalSales function is designed to take an array of sales figures as input and iterate through the array, summing up the sales figures. The main method provides an example array dailySales, and the result is displayed, demonstrating the approach to calculate total sales for a day in the context of a point-of-sale system.
         
 2. <a name="AVeryBigSum"></a>[A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem?h_r=profile) 
