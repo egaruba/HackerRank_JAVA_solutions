@@ -19,7 +19,8 @@
 
 <a name=""></a>
 
-1. <a name="CalculateTotalSales"></a>[Calculating Total Sales](#) - Suppose you are developing a point-of-sale system and you need to calculate the total sales for a day based on sales figures stored in an array, how would you approach implementing the necessary code for this task? Provide a Java code snippet demonstrating how you would calculate the total sales by summing up the sales figures in the array.
+
+<a name="CalculateTotalSales"></a> [Calculating Total Sales](#) - Suppose you are developing a point-of-sale system and you need to calculate the total sales for a day based on sales figures stored in an array, how would you approach implementing the necessary code for this task? Provide a Java code snippet demonstrating how you would calculate the total sales by summing up the sales figures in the array.
   ```
 public class PointOfSaleSystem {
 
@@ -49,8 +50,6 @@ public class PointOfSaleSystem {
 ```
 ### Explanation
 The calculateTotalSales function is designed to take an array of sales figures as input and iterate through the array, summing up the sales figures. The main method provides an example array dailySales, and the result is displayed, demonstrating the approach to calculate total sales in a day for a point-of-sale system.
-
-
         
 2. <a name="AVeryBigSum"></a>[A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem?h_r=profile) 
 
