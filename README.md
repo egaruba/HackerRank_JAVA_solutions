@@ -45,8 +45,8 @@ public class PointOfSaleSystem {
     }
 }
 ```
-###Explanation:
-The calculateTotalSales function is designed to take an array of sales figures as input and iterate through the array, summing up the sales figures. The main method provides an example array dailySales, and the result is displayed, demonstrating the approach to calculate total sales for a day in the context of a point-of-sale system.
+- ### Explanation:
+- The calculateTotalSales function is designed to take an array of sales figures as input and iterate through the array, summing up the sales figures. The main method provides an example array dailySales, and the result is displayed, demonstrating the approach to calculate total sales for a day in the context of a point-of-sale system.
         
 2. <a name="AVeryBigSum"></a>[A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem?h_r=profile) 
 
