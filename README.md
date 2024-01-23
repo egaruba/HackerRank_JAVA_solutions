@@ -60,7 +60,7 @@ Use Case: For sports analysts, the Breaking the Records code could be used to an
 
 
 
-1. #[Calculating Total Sales](#CalculateTotalSales)
+1. [Calculating Total Sales](#CalculateTotalSales)
 2. [A Very Big Sum](#AVeryBigSum)
 3. [Compare the Triplets](#CompareTheTriplets)
 4. [Plus Minus](#PlusMinus)
@@ -76,11 +76,11 @@ Use Case: For sports analysts, the Breaking the Records code could be used to an
 14. [](#)
 
 <a name=""></a>
-1. <a name="CalculateTotalSales"></a>[Calculating Total Sales](#) - Use Case: Suppose you are developing a point-of-sale system and you need to calculate the total sales for a day based on sales figures stored in an array, how would you approach implementing the necessary code for this task? Provide a Java code snippet demonstrating how you would calculate the total sales by summing up the sales figures in the array.
+1. <a name="CalculateTotalSales"></a>[Calculating Total Sales](#) - Suppose you are developing a point-of-sale system and you need to calculate the total sales for a day based on sales figures stored in an array, how would you approach implementing the necessary code for this task? Provide a Java code snippet demonstrating how you would calculate the total sales by summing up the sales figures in the array.
         
-        public class PointOfSaleSystem {
+   public class PointOfSaleSystem {
 
-    public static int calculateTotalSales(int[] salesFigures) {
+   public static int calculateTotalSales(int[] salesFigures) {
         int totalSales = 0;
 
         for (int sales : salesFigures) {
