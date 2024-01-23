@@ -1,7 +1,7 @@
 ## Real World Java Questions Based On HackerRank Challenges
 
 1. [Calculating Total Sales](#CalculateTotalSales)
-2. [A Very Big Sum](#AVeryBigSum)
+2. [Summing Up Financial Transactions](#SummingUpFinancialTransactions)
 3. [Compare the Triplets](#CompareTheTriplets)
 4. [Plus Minus](#PlusMinus)
 5. [Diagonal Difference](#DiagonalDifference)
@@ -51,29 +51,34 @@ public class PointOfSaleSystem {
 ### Explanation
 The calculateTotalSales function is designed to take an array of sales figures as input and iterate through the array, summing up the sales figures. The main method provides an example array dailySales, and the result is displayed, demonstrating the approach to calculate total sales in a day for a point-of-sale system.
         
-2. <a name="AVeryBigSum"></a>[A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem?h_r=profile) 
+<a name="SummingUpFinancialTransactions"></a> [Summing Up Financial Transactions](#) - You have a banking application that handles substantial financial transactions, you need to find out how you can accurately compute the total transaction amount. Provide a Java code example illustrating how this code snippet could be utilized within the mentioned banking scenario.
+  ```
+import java.util.List;
 
-        public static long aVeryBigSum(List<Long> ar) 
-        {    
-                Long longInteger = 0L;
-                for(Long i: ar)
-                {
-                longInteger += i;        
-                }
-                return longInteger;
-        }
-        
-- or:
+public class TransactionProcessor {
 
-        public static long aVeryBigSum(List<Long> ar) 
-        {    
-                Long longInteger = 0L;
-                for(int i = 0; i < ar.size(); i++)
-                {
-                longInteger += ar.get(i);        
-                }
-                return longInteger;
+    public static long calculateTotalTransactionAmount(List<Long> transactionAmounts) {
+        long totalAmount = 0L;
+
+        for (Long amount : transactionAmounts) {
+            totalAmount += amount;
         }
+
+        return totalAmount;
+    }
+
+    public static void main(String[] args) {
+        // Example usage:
+        List<Long> transactions = List.of(15000L, 23000L, 18000L, 25000L, 30000L);
+
+        long totalTransactionAmount = calculateTotalTransactionAmount(transactions);
+
+        System.out.println("Total Transaction Amount: $" + totalTransactionAmount);
+    }
+}
+```
+### Explanation
+This Java code defines a TransactionProcessor class with a method calculateTotalTransactionAmount that takes a list of transaction amounts and computes the total. The main method demonstrates its usage with a sample list of transactions, providing the total transaction amount as output.
 
 3. <a name="CompareTheTriplets"></a>[Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?h_r=profile) - comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
 
