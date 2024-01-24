@@ -1,4 +1,4 @@
-## Real World Java Questions Based On HackerRank Challenges
+# Real World Java Questions Based On HackerRank Challenges
 
 1. [Calculating Total Sales](#CalculateTotalSales)
 2. [Summing Up Financial Transactions](#SummingUpFinancialTransactions)
